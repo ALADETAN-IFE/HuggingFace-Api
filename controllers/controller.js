@@ -1,3 +1,10 @@
+# ============================================================
+# REPOGUARD SECURITY PATCH — controllers/controller.js
+# Scanned: 2026-06-08T14:53:08.213Z
+# Findings:
+#   [HIGH] env-exfiltration: Environment variable exfiltration — secrets being sent externally
+# ============================================================
+
 const axios = require("axios");
 require("dotenv").config();
 
